@@ -1,0 +1,20 @@
+{
+  "name": "hello-doctor-ussd",
+  "version": "1.0.0",
+  "description": "HelloDoctor Telehealth USSD Service - Terminal & Phone Simulator",
+  "main": "src/terminal.js",
+  "type": "module",
+  "scripts": {
+    "start": "node api.js && node src/terminal.js",
+    "simulator": "node server.js",
+    "dev": "node api.js && node server.js"
+  },
+  "keywords": [
+    "ussd",
+    "telehealth",
+    "hello-doctor",
+    "simulator"
+  ],
+  "author": "",
+  "license": "MIT"
+}
